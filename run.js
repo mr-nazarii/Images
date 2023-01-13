@@ -5,7 +5,7 @@ const fs = require("fs");
 const folder = "./img/raw";
 
 // specify the desired compression percentage
-const percent = 20;
+const percent = 50;
 
 if (!fs.existsSync(`./img/compressed`)) {
   fs.mkdirSync(`./img/compressed`);
